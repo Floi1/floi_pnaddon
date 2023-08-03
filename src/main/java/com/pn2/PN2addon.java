@@ -19,7 +19,7 @@ public class PN2addon {
     public static final SimpleNetworkWrapper PACKET_HANDLER = null;
     @SidedProxy (
             clientSide = "com.pn2.ClientProxypnaddon2",
-            serverSide = "net.pn2.ServerProxypnaddon2"
+            serverSide = "com.pn2.ServerProxypnaddon2"
     )
     public static IProxypnaddon2 proxy;
     @Instance ( "PN2addon" )
