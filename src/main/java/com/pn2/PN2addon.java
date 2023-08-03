@@ -1,7 +1,3 @@
-//
-// Source code recreated from a .class file by IntelliJ IDEA
-// (powered by FernFlower decompiler)
-//
 
 package com.pn2;
 
@@ -22,11 +18,11 @@ public class PN2addon {
     public static final String VERSION = "PN2addon";
     public static final SimpleNetworkWrapper PACKET_HANDLER = null;
     @SidedProxy (
-            clientSide = "net.lepidodendron.ClientProxyLepidodendronMod",
-            serverSide = "net.lepidodendron.ServerProxyLepidodendronMod"
+            clientSide = "com.pn2.ClientProxypnaddon2",
+            serverSide = "net.pn2.ServerProxypnaddon2"
     )
     public static IProxypnaddon2 proxy;
-    @Instance ( "lepidodendron" )
+    @Instance ( "PN2addon" )
     public static PN2addon instance;
     public Elementspnaddon elements = new Elementspnaddon ( );
 }
